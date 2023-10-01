@@ -1,5 +1,5 @@
 let nomeJogador = "fernandinha do javinha";
-let xp = 8523
+let xp = 6852
 
 if (xp <= 1000) {
     console.log("O Herói de nome " + nomeJogador + " está no nível de Ferro");
@@ -15,6 +15,6 @@ if (xp <= 1000) {
     console.log("O Herói de nome " + nomeJogador + " está no nível de Ascendente");
 } else if (xp >= 9001 && xp <= 10000) {
     console.log("O Herói de nome " + nomeJogador + " está no nível de Imortal");
-} else (xp >= 10001); {
+} else {
     console.log("O Herói de nome " + nomeJogador + " está no nível de Radiante");
 }
