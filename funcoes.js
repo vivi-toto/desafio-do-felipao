@@ -1,8 +1,6 @@
-function enviarDados () {
-    let nomeBanco = "banco-de-dados";
-    console.log("Salvando dados em : " + nomeBanco)
+torrar("pao de forma");
+torrar("pao integral");
 
-    if (3 === 3) {
-        console.log("senha validada");
-    }
+function torrar(pao) {
+    console.log("Torrada feita com " + pao)
 }
